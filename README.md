@@ -1,5 +1,5 @@
 # CodeIgniter-Insert-Batch-on-DUPLICATE-KEY-Update
-This class helps you to extend the codeigniter mysqli driver to be able to support update on duplicate while inserting batch feature. This allows you to be able to supply a an array of key value pairs to be inserted into separate rows.
+This class helps you to extend the codeigniter mysqli driver to be able to support update on duplicate while inserting batch feature. This allows you to be able to supply an array of key value pairs to be inserted into separate rows.
 
 1. Copy Both My_Loader.php and MY_DB_mysqli_driver.php to "application/core" folder.
 2. Use $this->db->insert_on_duplicate_update_batch() inseated of $this->db->insert_batch()
