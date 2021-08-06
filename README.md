@@ -6,4 +6,4 @@ This class helps you to extend the codeigniter mysqli driver to be able to suppo
 
 This will auto update data if duplicate key occurs in DB.
 
-Support By: <a href="https://www.ranglerz.com">Ranglerz</a>
+Support By: <a href="https://amirhussain.net">Amir Hussain</a>
