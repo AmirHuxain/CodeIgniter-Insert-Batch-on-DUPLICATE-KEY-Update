@@ -20,7 +20,7 @@ class MY_DB_mysqli_driver extends CI_DB_mysqli_driver {
      * @return object
      */
     function insert_on_duplicate_update_batch($table = '', $set = NULL) {
-        if (!is_null($set)) {
+        if (!is_null($set) && !empty($set)) {
             $this->set_insert_batch($set);
         }
 
